@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,42 +9,51 @@
     <link rel="shortcut icon" href="img/logo-inter-miami-cf.svg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <img src="img/logo-inter-miami-cf.svg" alt="logo oficial del Inter de Miami" width="250">
-        <h1>Inter de Miami</h1> 
-        <p>Somos Inter de Miami y el sur de florida es nuestro hogar</p>
-    </header>
-    <main>
-<section>
-    <ul>
-        <li> <a href="">Sitio oficial</a> </li>
-        <li> <a href="">Entradas</a> </li>
-        <li> <a href="">Facebook</a> </li>
-        <li> <a href="">Twitter</a> </li>
-    </ul>
-</section>
-<section>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6565.759184329889!2d-58.40340876240308!3d-34.63248296384999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1694727844416!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/g5Q_bssd2qU?si=a1ZGyvvUwuz0hzDJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</section>
-<section>
-    <ul>
-        <li> <a href="https://wa.me/1150247732" target="_blank">Local $100</a> </li>
-        <li> <a href="https://wa.me/1150247732" target="_blank">Visitante $100</a> </li>
-    </ul>
-</section>
-<section>
-    <img src="img/148f60e3d0311f791b68a945499759ba (1).jpg" alt="banner" width="250">
-    <video src="media/production_id_4135118 (360p).mp4" controls>MIAMI</video>
-</section>
+<body>
+    <header class="header">
+        <img class="header__logo" src="img/logo-inter-miami-cf.svg" alt="logo oficial del Inter de Miami">
+        <h1 class="header__titulo">Inter de Miami</h1>
+        <p class="header__subtitulo">Somos Inter de Miami y el sur de florida es nuestro hogar</p>
+    </header>
+    <main class="main">
+        <section class="main__enlases">
+            <ul>
+                <li> <a href="">Sitio oficial</a> </li>
+                <li> <a href="">Entradas</a> </li>
+                <li> <a href="">Facebook</a> </li>
+                <li> <a href="">Twitter</a> </li>
+            </ul>
+        </section>
+        <section class="main__media">
+            <iframe class="ubicacion"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6565.759184329889!2d-58.40340876240308!3d-34.63248296384999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1694727844416!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <iframe class="messi-miami" width="560" height="315"
+                src="https://www.youtube.com/embed/g5Q_bssd2qU?si=a1ZGyvvUwuz0hzDJ" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+        <section class="main__comprar">
+            <ul>
+                <li class="Local"> <a href="https://wa.me/1150247732" target="_blank">Local $100</a> </li>
+                <li class="Visitante"> <a href="https://wa.me/1150247732" target="_blank">Visitante $100</a> </li>
+            </ul>
+        </section>
+        <section class="main__publicidad">
+            <img class="banner" src="img/148f60e3d0311f791b68a945499759ba (1).jpg" alt="banner" width="250">
+            <video class="miami-media" src="media/production_id_4135118 (360p).mp4" controls>MIAMI</video>
+        </section>
     </main>
-    <footer>
-        <img src="img/MLS-PNG-Images-HD.png" alt="imagen oficial MLS" width="250">
-        <p>sintonizanos por Apple TV</p>
-        <p>MLS@gmail.com</p>
+    <footer class="footer">
+        <img class="footer__liga" src="img/MLS-PNG-Images-HD.png" alt="imagen oficial MLS" width="250">
+        <p class="footer__apple-tv">sintonizanos por Apple TV</p>
+        <p class="footer__mail">MLS@gmail.com</p>
 
     </footer>
 </body>
+
 </html>
