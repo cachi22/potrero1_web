@@ -159,3 +159,19 @@ video, iframe {
     width: 150px;
     height: 150px;
 }
+
+/* seccion 5 */
+
+seccion5 {
+    padding: 10px;
+}
+
+.seccion5__titulo {
+    text-align: center;
+}
+
+.seccion5__boton {
+    background-color: #f5b5cd;
+    border-color: #f5b5cd;
+    width: 100%;
+}

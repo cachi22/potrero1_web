@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="shortcut icon" href="img/logo-inter-miami-cf.svg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Contacto</title>
 </head>
+
 <body>
     <header class="header">
         <img class="header__logo" src="img/logo-inter-miami-cf.svg" alt="logo oficial del Inter de Miami">
         <h1 class="header__titulo">Inter de Miami</h1>
         <p class="header__subtitulo">Somos Inter de Miami y el sur de florida es nuestro hogar</p>
-        
+
     </header>
     <main class="main">
         <section class="seccion1">
@@ -22,14 +26,44 @@
                     <a href="index.html" class="seccion1__enlace">Sitio oficial</a>
                 </li>
         </section>
-        formulario en construccion
+        <section class="seccion5">
+            <h1 class="seccion5__titulo">Contactanos</h1>
+            <form>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="">Tipo de consulta</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Seleccionar opcion</option>
+                        <option value="1">Ayuda</option>
+                        <option value="2">Comprar</option>
+                        <option value="3">Devolver</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">ingrese su consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Aceptar terminos y condiciones</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
     </main>
-    
+
     <footer class="footer">
         <img class="footer__logo" src="img/MLS-PNG-Images-HD.png" alt="imagen oficial MLS" width="250">
         <p class="footer__item">sintonizanos por Apple TV</p>
         <p class="footer__item">MLS@gmail.com</p>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
