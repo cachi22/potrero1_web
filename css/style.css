@@ -147,3 +147,15 @@ video, iframe {
     height: 150px;
     margin-bottom: 10px;
 }
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.footer__logo{
+    width: 150px;
+    height: 150px;
+}
