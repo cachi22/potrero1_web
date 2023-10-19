@@ -175,3 +175,27 @@ seccion5 {
     border-color: #f5b5cd;
     width: 100%;
 }
+.btn-primary{
+    background-color: #f5b5cd;
+    border-color: #f5b5cd;
+}
+
+/* media Querys */
+/* mobile first */
+
+
+/* @media (min-width: 900px){
+    body {
+        background-color: rgb(68, 31, 204);
+    }
+    .seccion4{
+        display: none;
+    }
+}  */
+
+/* desktop firts */
+/* @media (max-width: 899px) {
+    body{
+        background-color: bisque;
+    }
+} */
